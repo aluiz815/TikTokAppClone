@@ -5,16 +5,12 @@
  * @format
  * @flow strict-local
  */
-
+import 'react-native-gesture-handler';
 import React from 'react';
-import {Text} from 'react-native';
+import Navigation from './Navigation';
 
 const App: () => React$Node = () => {
-  return (
-    <>
-      <Text>Hello World</Text>
-    </>
-  );
+  return <Navigation />;
 };
 
 export default App;
